@@ -20,6 +20,7 @@ const App = () => {
 
   return (
     <div className='app'>
+   
     <BoardComponent
       board={board}
       setBoard={setBoard}
