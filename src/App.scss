@@ -9,21 +9,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(66, 6, 78);
   }
   
   .board {
-    width: calc(64px * 8);
-    height: calc(64px * 8);
+    width: calc(80px * 8);
+    height: calc(80px * 8);
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 0 0 300px rgba(0,0,0,0.8);
   }
   
   .cell {
-    width: 64px;
-    height: 64px;
+    width: 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+   .cell img {
+    width: 48px;
+    height: 48px;
+    position: relative;
   }
   
   .black {
@@ -31,7 +39,7 @@
   }
 
   .white {
-    background-color: rgb(219, 185, 123);
+    background-color: rgb(69, 45, 206);
   }
 
 
